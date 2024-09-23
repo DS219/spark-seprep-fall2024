@@ -1,1 +1,1 @@
-Hi my name is Kyle Yu. I love the outdoors, sports, and traveling.
+Hi my name is Kyle Yu and my favorite programming language is python because of its extensive library for data analysis and machine learning.
