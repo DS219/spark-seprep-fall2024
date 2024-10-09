@@ -1,0 +1,6 @@
+FROM alpine
+WORKDIR mydir
+ADD meow.sh /mydir
+RUN chmod +x /mydir/meow.sh
+RUN apk add curl
+CMD ./meow.sh
