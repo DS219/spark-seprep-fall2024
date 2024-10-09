@@ -1,0 +1,5 @@
+FROM python
+WORKDIR /mydir
+ADD hiroOutput.py /mydir
+RUN chmod +x ./hiroOutput.py
+CMD ./hiroOutput.py
