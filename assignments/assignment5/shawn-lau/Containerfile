@@ -1,0 +1,4 @@
+FROM python
+WORKDIR mydir
+ADD fib.py /mydir
+CMD ["python", "fib.py"]
