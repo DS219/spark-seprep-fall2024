@@ -1,0 +1,7 @@
+FROM alpine
+WORKDIR Stavros-Constantinou
+ADD bash.sh /Stavros-Constantinou/bash.sh
+RUN chmod +x /Stavros-Constantinou/bash.sh
+RUN apk add curl
+CMD ["/bin/sh", "/Stavros-Constantinou/bash.sh"]
+
