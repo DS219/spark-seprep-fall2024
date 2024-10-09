@@ -1,6 +1,0 @@
-FROM python:3.9
-WORKDIR chanel-thorpe
-COPY assignment5.py 
-/users/chanelthorpe/ds219/spark-seprep/github.com/assignments/assignment5/chanel-tho
-CMD ["python", "assignment5.py"]
-
