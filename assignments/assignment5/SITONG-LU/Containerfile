@@ -1,0 +1,5 @@
+FROM python
+WORKDIR hello
+ADD hello.py /hello
+#RUN chmod +x /mydir/plus_one/.py
+CMD ["python", "/hello/hello.py"]
