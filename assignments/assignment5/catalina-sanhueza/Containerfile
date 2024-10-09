@@ -1,0 +1,6 @@
+FROM  python
+WORKDIR mydir
+ADD remove_element.py/mydir 
+RUN chmod +x /mydir/remove_element.py
+CMD ["python", "remove_element.py"]
+
