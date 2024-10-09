@@ -1,0 +1,4 @@
+FROM ubuntu:latest
+WORKDIR mydir
+ADD samscript /mydir
+ENTRYPOINT ./samscript
