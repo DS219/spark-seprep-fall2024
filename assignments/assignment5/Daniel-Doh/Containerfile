@@ -1,0 +1,10 @@
+FROM alpine
+
+WORKDIR /mydir
+
+RUN apk add --no-cache python3 py3-pip py3-beautifulsoup4
+
+ADD warren_hall_webscraper.py /mydir
+
+CMD ["python3", "./warren_hall_webscraper.py"]
+
